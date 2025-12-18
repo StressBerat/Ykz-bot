@@ -1,0 +1,25 @@
+{
+  "name": "hanstech-store-bot-v2",
+  "version": "2.0.0",
+  "description": "HanSTech Store Bot V2 – Discord store ticket & automation.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "deploy": "node utils/deploy-commands.js"
+  },
+  "author": "HanSTech",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "discord-bot",
+    "store",
+    "ticket",
+    "hanstech"
+  ],
+  "dependencies": {
+    "discord.js": "^14.18.0"
+  }
+}
